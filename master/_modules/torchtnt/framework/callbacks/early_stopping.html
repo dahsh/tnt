@@ -9,7 +9,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>torchtnt.utils.timer.BoundedTimer &mdash; TorchTNT master documentation</title>
+  <title>torchtnt.framework.callbacks.early_stopping &mdash; TorchTNT master documentation</title>
   
 
   
@@ -25,16 +25,14 @@
 
   
 
-  <link rel="stylesheet" href="../../_static/css/theme.css" type="text/css" />
-  <!-- <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" /> -->
-  <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
-  <link rel="stylesheet" href="../../_static/css/theme.css" type="text/css" />
-  <link rel="stylesheet" href="../../_static/css/torchtnt.css" type="text/css" />
-  <link rel="stylesheet" href="../../_static/css/torchtnt.css" type="text/css" />
-    <link rel="index" title="Index" href="../../genindex.html" />
-    <link rel="search" title="Search" href="../../search.html" />
-    <link rel="next" title="torchtnt.utils.timer.get_timer_summary" href="torchtnt.utils.timer.get_timer_summary.html" />
-    <link rel="prev" title="torchtnt.utils.timer.FullSyncPeriodicTimer" href="torchtnt.utils.timer.FullSyncPeriodicTimer.html" />
+  <link rel="stylesheet" href="../../../../_static/css/theme.css" type="text/css" />
+  <!-- <link rel="stylesheet" href="../../../../_static/pygments.css" type="text/css" /> -->
+  <link rel="stylesheet" href="../../../../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../../../../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../../../_static/css/torchtnt.css" type="text/css" />
+  <link rel="stylesheet" href="../../../../_static/css/torchtnt.css" type="text/css" />
+    <link rel="index" title="Index" href="../../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../../search.html" />
   <!-- Google Tag Manager -->
     <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
     new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -45,16 +43,16 @@
   
 
   
-  <script src="../../_static/js/modernizr.min.js"></script>
+  <script src="../../../../_static/js/modernizr.min.js"></script>
 
   <!-- Preload the theme fonts -->
 
-<link rel="preload" href="../../_static/fonts/FreightSans/freight-sans-book.woff2" as="font" type="font/woff2" crossorigin="anonymous">
-<link rel="preload" href="../../_static/fonts/FreightSans/freight-sans-medium.woff2" as="font" type="font/woff2" crossorigin="anonymous">
-<link rel="preload" href="../../_static/fonts/IBMPlexMono/IBMPlexMono-Medium.woff2" as="font" type="font/woff2" crossorigin="anonymous">
-<link rel="preload" href="../../_static/fonts/FreightSans/freight-sans-bold.woff2" as="font" type="font/woff2" crossorigin="anonymous">
-<link rel="preload" href="../../_static/fonts/FreightSans/freight-sans-medium-italic.woff2" as="font" type="font/woff2" crossorigin="anonymous">
-<link rel="preload" href="../../_static/fonts/IBMPlexMono/IBMPlexMono-SemiBold.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+<link rel="preload" href="../../../../_static/fonts/FreightSans/freight-sans-book.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+<link rel="preload" href="../../../../_static/fonts/FreightSans/freight-sans-medium.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+<link rel="preload" href="../../../../_static/fonts/IBMPlexMono/IBMPlexMono-Medium.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+<link rel="preload" href="../../../../_static/fonts/FreightSans/freight-sans-bold.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+<link rel="preload" href="../../../../_static/fonts/FreightSans/freight-sans-medium-italic.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+<link rel="preload" href="../../../../_static/fonts/IBMPlexMono/IBMPlexMono-SemiBold.woff2" as="font" type="font/woff2" crossorigin="anonymous">
 
 <!-- Preload the katex fonts -->
 
@@ -251,7 +249,7 @@
 
 
 <div role="search">
-  <form id="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+  <form id="rtd-search-form" class="wy-form" action="../../../../search.html" method="get">
     <input type="text" name="q" placeholder="Search Docs" />
     <input type="hidden" name="check_keywords" value="yes" />
     <input type="hidden" name="area" value="default" />
@@ -269,31 +267,31 @@
             
               <p class="caption" role="heading"><span class="caption-text">Overview</span></p>
 <ul>
-<li class="toctree-l1"><a class="reference internal" href="../../overview.html">Overview</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../overview.html">Overview</a></li>
 </ul>
 <p class="caption" role="heading"><span class="caption-text">Examples</span></p>
 <ul>
-<li class="toctree-l1"><a class="reference internal" href="../../examples.html">Examples</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../examples.html">Examples</a></li>
 </ul>
 <p class="caption" role="heading"><span class="caption-text">Core Concepts</span></p>
 <ul>
-<li class="toctree-l1"><a class="reference internal" href="../../distributed.html">Distributed training</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../checkpointing.html">Checkpointing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../distributed.html">Distributed training</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../checkpointing.html">Checkpointing</a></li>
 </ul>
 <p class="caption" role="heading"><span class="caption-text">Framework</span></p>
 <ul>
-<li class="toctree-l1"><a class="reference internal" href="../../framework/unit.html">Unit</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../framework/auto_unit.html">AutoUnit</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../framework/train.html">Train</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../framework/eval.html">Evaluate</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../framework/predict.html">Predict</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../framework/fit.html">Fit</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../framework/state.html">State</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../framework/callbacks.html">Callbacks</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../framework/unit.html">Unit</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../framework/auto_unit.html">AutoUnit</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../framework/train.html">Train</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../framework/eval.html">Evaluate</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../framework/predict.html">Predict</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../framework/fit.html">Fit</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../framework/state.html">State</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../framework/callbacks.html">Callbacks</a></li>
 </ul>
 <p class="caption" role="heading"><span class="caption-text">Utils</span></p>
-<ul class="current">
-<li class="toctree-l1 current"><a class="reference internal" href="../utils.html">Utils</a></li>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../utils/utils.html">Utils</a></li>
 </ul>
 
             
@@ -326,7 +324,7 @@
   <ul class="pytorch-breadcrumbs">
     
       <li>
-        <a href="../../index.html">
+        <a href="../../../../index.html">
           
             Docs
           
@@ -334,16 +332,12 @@
       </li>
 
         
-          <li><a href="../utils.html">Utils</a> &gt;</li>
+          <li><a href="../../../index.html">Module code</a> &gt;</li>
         
-      <li>torchtnt.utils.timer.BoundedTimer</li>
+      <li>torchtnt.framework.callbacks.early_stopping</li>
     
     
       <li class="pytorch-breadcrumbs-aside">
-        
-            
-            <a href="../../_sources/utils/generated/torchtnt.utils.timer.BoundedTimer.rst.txt" rel="nofollow"><img src="../../_static/images/view-page-source-icon.svg"></a>
-          
         
       </li>
     
@@ -372,94 +366,95 @@
             <div role="main" class="main-content" itemscope="itemscope" itemtype="http://schema.org/Article">
              <article itemprop="articleBody" id="pytorch-article" class="pytorch-article">
               
-  <div class="section" id="torchtnt-utils-timer-boundedtimer">
-<h1>torchtnt.utils.timer.BoundedTimer<a class="headerlink" href="#torchtnt-utils-timer-boundedtimer" title="Permalink to this heading">¶</a></h1>
-<dl class="py class">
-<dt class="sig sig-object py" id="torchtnt.utils.timer.BoundedTimer">
-<em class="property"><span class="pre">class</span><span class="w"> </span></em><code class="sig-prename descclassname"><span class="pre">torchtnt.utils.timer.</span></code><code class="sig-name descname"><span class="pre">BoundedTimer</span></code><span class="sig-paren">(</span><em><span class="n"><span class="pre">lower_bound</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span></span></em>, <em><span class="n"><span class="pre">upper_bound</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span></span></em>, <em><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Any</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/torchtnt/utils/timer.html#BoundedTimer"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#torchtnt.utils.timer.BoundedTimer" title="Permalink to this definition">¶</a></dt>
-<dd><p>A Timer class which implements TimerProtocol and stores timings in a dictionary <cite>recorded_durations</cite>.</p>
-<p>Same behavior as timer, but with the addition of size_bounds = (lower, upper)</p>
-<table class="docutils field-list" frame="void" rules="none">
-<col class="field-name" />
-<col class="field-body" />
-<tbody valign="top">
-<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
-<li><strong>...</strong> – </li>
-<li><strong>size_bounds</strong> – defines the range of samples that should be kept in the timer. The lower bound should be smaller than
-the upper bound. When the number of samples reaches the upper bound, the oldest (upper-lower) bound samples will
-be removed. This range is applied per action.</li>
-</ul>
-</td>
-</tr>
-</tbody>
-</table>
-<dl class="py method">
-<dt class="sig sig-object py" id="torchtnt.utils.timer.BoundedTimer.__init__">
-<code class="sig-name descname"><span class="pre">__init__</span></code><span class="sig-paren">(</span><em><span class="n"><span class="pre">lower_bound</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span></span></em>, <em><span class="n"><span class="pre">upper_bound</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span></span></em>, <em><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Any</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">None</span></span></span><a class="reference internal" href="../../_modules/torchtnt/utils/timer.html#BoundedTimer.__init__"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#torchtnt.utils.timer.BoundedTimer.__init__" title="Permalink to this definition">¶</a></dt>
-<dd><p>A Timer class which implements TimerProtocol and stores timings in a dictionary <cite>recorded_durations</cite>.</p>
-<table class="docutils field-list" frame="void" rules="none">
-<col class="field-name" />
-<col class="field-body" />
-<tbody valign="top">
-<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
-<li><strong>cuda_sync</strong> – whether to call torch.cuda.synchronize() before and after timing. Defaults to True if CUDA is available.</li>
-<li><strong>verbose</strong> – whether to enable verbose logging.</li>
-</ul>
-</td>
-</tr>
-</tbody>
-</table>
-<div class="admonition note">
-<p class="first admonition-title">Note</p>
-<p class="last">Enabling cuda_sync will incur a performance hit, but will ensure accurate timings on GPUs.</p>
-</div>
-<table class="docutils field-list" frame="void" rules="none">
-<col class="field-name" />
-<col class="field-body" />
-<tbody valign="top">
-<tr class="field-odd field"><th class="field-name">Raises:</th><td class="field-body"><strong>ValueError</strong> – If cuda_sync is set to True but CUDA is not available.</td>
-</tr>
-</tbody>
-</table>
-</dd></dl>
+  <h1>Source code for torchtnt.framework.callbacks.early_stopping</h1><div class="highlight"><pre>
+<span></span><span class="c1"># Copyright (c) Meta Platforms, Inc. and affiliates.</span>
+<span class="c1"># All rights reserved.</span>
+<span class="c1">#</span>
+<span class="c1"># This source code is licensed under the BSD-style license found in the</span>
+<span class="c1"># LICENSE file in the root directory of this source tree.</span>
 
-<p class="rubric">Methods</p>
-<table border="1" class="autosummary longtable docutils # Necessary for the table generated by autosummary to look decent align-default">
-<tbody valign="top">
-<tr class="row-odd"><td><a class="reference internal" href="#torchtnt.utils.timer.BoundedTimer.__init__" title="torchtnt.utils.timer.BoundedTimer.__init__"><code class="xref py py-obj docutils literal notranslate"><span class="pre">__init__</span></code></a>(lower_bound,&nbsp;upper_bound,&nbsp;**kwargs)</td>
-<td>A Timer class which implements TimerProtocol and stores timings in a dictionary <cite>recorded_durations</cite>.</td>
-</tr>
-<tr class="row-even"><td><code class="xref py py-obj docutils literal notranslate"><span class="pre">reset</span></code>()</td>
-<td>Reset the recorded_durations to an empty list</td>
-</tr>
-<tr class="row-odd"><td><code class="xref py py-obj docutils literal notranslate"><span class="pre">time</span></code>(action_name)</td>
-<td>A context manager for timing a code block, with optional cuda synchronization and verbose timing.</td>
-</tr>
-</tbody>
-</table>
-<p class="rubric">Attributes</p>
-<table border="1" class="autosummary longtable docutils # Necessary for the table generated by autosummary to look decent align-default">
-<tbody valign="top">
-</tbody>
-</table>
-</dd></dl>
+<span class="kn">from</span> <span class="nn">typing</span> <span class="kn">import</span> <span class="n">Literal</span>
 
-</div>
+<span class="kn">from</span> <span class="nn">torchtnt.framework.callback</span> <span class="kn">import</span> <span class="n">Callback</span>
+<span class="kn">from</span> <span class="nn">torchtnt.framework.state</span> <span class="kn">import</span> <span class="n">State</span>
+<span class="kn">from</span> <span class="nn">torchtnt.framework.unit</span> <span class="kn">import</span> <span class="n">AppStateMixin</span><span class="p">,</span> <span class="n">TTrainUnit</span>
+<span class="kn">from</span> <span class="nn">torchtnt.utils.distributed</span> <span class="kn">import</span> <span class="n">get_global_rank</span><span class="p">,</span> <span class="n">sync_bool</span>
+<span class="kn">from</span> <span class="nn">torchtnt.utils.early_stop_checker</span> <span class="kn">import</span> <span class="n">EarlyStopChecker</span>
 
+
+<div class="viewcode-block" id="EarlyStopping"><a class="viewcode-back" href="../../../../framework/generated/torchtnt.framework.callbacks.EarlyStopping.html#torchtnt.framework.callbacks.EarlyStopping">[docs]</a><span class="k">class</span> <span class="nc">EarlyStopping</span><span class="p">(</span><span class="n">Callback</span><span class="p">):</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    This callback checks the value of a monitored attribute on a Unit and stops the training if the value does not improve.</span>
+
+<span class="sd">    Args:</span>
+<span class="sd">        monitored_attr: The attribute to monitor on the unit. Must be a float or tensor attribute on the unit.</span>
+<span class="sd">        early_stop_checker: a :class:`~torchtnt.utils.early_stop_checker.EarlyStopChecker` to use for checking whether to stop early.</span>
+<span class="sd">        interval: The interval to check the monitored attribute. Must be one of &quot;step&quot; or &quot;epoch&quot;.</span>
+
+<span class="sd">    Note:</span>
+<span class="sd">        If doing distributed training, this callback checks the metric value only on rank 0</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+
+    <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span>
+        <span class="bp">self</span><span class="p">,</span>
+        <span class="n">monitored_attr</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span>
+        <span class="n">early_stop_checker</span><span class="p">:</span> <span class="n">EarlyStopChecker</span><span class="p">,</span>
+        <span class="n">interval</span><span class="p">:</span> <span class="n">Literal</span><span class="p">[</span><span class="s2">&quot;step&quot;</span><span class="p">,</span> <span class="s2">&quot;epoch&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="s2">&quot;epoch&quot;</span><span class="p">,</span>
+        <span class="n">interval_freq</span><span class="p">:</span> <span class="nb">int</span> <span class="o">=</span> <span class="mi">1</span><span class="p">,</span>
+    <span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">_monitored_attr</span> <span class="o">=</span> <span class="n">monitored_attr</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">_esc</span> <span class="o">=</span> <span class="n">early_stop_checker</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">_interval</span> <span class="o">=</span> <span class="n">interval</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">_interval_freq</span> <span class="o">=</span> <span class="n">interval_freq</span>
+
+        <span class="bp">self</span><span class="o">.</span><span class="n">_rank</span><span class="p">:</span> <span class="nb">int</span> <span class="o">=</span> <span class="n">get_global_rank</span><span class="p">()</span>
+
+<div class="viewcode-block" id="EarlyStopping.on_train_step_end"><a class="viewcode-back" href="../../../../framework/generated/torchtnt.framework.callbacks.EarlyStopping.html#torchtnt.framework.callbacks.EarlyStopping.on_train_step_end">[docs]</a>    <span class="k">def</span> <span class="nf">on_train_step_end</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">state</span><span class="p">:</span> <span class="n">State</span><span class="p">,</span> <span class="n">unit</span><span class="p">:</span> <span class="n">TTrainUnit</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
+        <span class="k">if</span> <span class="p">(</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">_interval</span> <span class="o">==</span> <span class="s2">&quot;step&quot;</span>
+            <span class="ow">and</span> <span class="n">unit</span><span class="o">.</span><span class="n">train_progress</span><span class="o">.</span><span class="n">num_steps_completed</span> <span class="o">%</span> <span class="bp">self</span><span class="o">.</span><span class="n">_interval_freq</span> <span class="o">==</span> <span class="mi">0</span>
+        <span class="p">):</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">_maybe_stop</span><span class="p">(</span><span class="n">state</span><span class="p">,</span> <span class="n">unit</span><span class="p">)</span></div>
+
+<div class="viewcode-block" id="EarlyStopping.on_train_epoch_end"><a class="viewcode-back" href="../../../../framework/generated/torchtnt.framework.callbacks.EarlyStopping.html#torchtnt.framework.callbacks.EarlyStopping.on_train_epoch_end">[docs]</a>    <span class="k">def</span> <span class="nf">on_train_epoch_end</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">state</span><span class="p">:</span> <span class="n">State</span><span class="p">,</span> <span class="n">unit</span><span class="p">:</span> <span class="n">TTrainUnit</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
+        <span class="k">if</span> <span class="p">(</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">_interval</span> <span class="o">==</span> <span class="s2">&quot;epoch&quot;</span>
+            <span class="ow">and</span> <span class="n">unit</span><span class="o">.</span><span class="n">train_progress</span><span class="o">.</span><span class="n">num_epochs_completed</span> <span class="o">%</span> <span class="bp">self</span><span class="o">.</span><span class="n">_interval_freq</span> <span class="o">==</span> <span class="mi">0</span>
+        <span class="p">):</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">_maybe_stop</span><span class="p">(</span><span class="n">state</span><span class="p">,</span> <span class="n">unit</span><span class="p">)</span></div>
+
+    <span class="k">def</span> <span class="nf">_maybe_stop</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">state</span><span class="p">:</span> <span class="n">State</span><span class="p">,</span> <span class="n">unit</span><span class="p">:</span> <span class="n">AppStateMixin</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        Checks whether to stop early based on the monitored attribute.</span>
+
+<span class="sd">        Args:</span>
+<span class="sd">            state: the current state of the training loop.</span>
+<span class="sd">            unit: the current unit.</span>
+
+<span class="sd">        Returns:</span>
+<span class="sd">            True if the training should stop early, False otherwise.</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+
+        <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">_rank</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span>
+            <span class="k">if</span> <span class="ow">not</span> <span class="nb">hasattr</span><span class="p">(</span><span class="n">unit</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">_monitored_attr</span><span class="p">):</span>
+                <span class="k">raise</span> <span class="ne">RuntimeError</span><span class="p">(</span>
+                    <span class="sa">f</span><span class="s2">&quot;Unit does not have attribute &#39;</span><span class="si">{</span><span class="bp">self</span><span class="o">.</span><span class="n">_monitored_attr</span><span class="si">}</span><span class="s2">&#39;, unable to read monitored attribute to determine whether to stop early.&quot;</span>
+                <span class="p">)</span>
+
+            <span class="n">value</span> <span class="o">=</span> <span class="nb">getattr</span><span class="p">(</span><span class="n">unit</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">_monitored_attr</span><span class="p">)</span>
+            <span class="n">should_stop</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">_esc</span><span class="o">.</span><span class="n">check</span><span class="p">(</span><span class="n">value</span><span class="p">)</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="n">should_stop</span> <span class="o">=</span> <span class="kc">False</span>
+
+        <span class="n">should_stop</span> <span class="o">=</span> <span class="n">sync_bool</span><span class="p">(</span><span class="n">should_stop</span><span class="p">,</span> <span class="n">coherence_mode</span><span class="o">=</span><span class="s2">&quot;rank_zero&quot;</span><span class="p">)</span>
+        <span class="k">if</span> <span class="n">should_stop</span><span class="p">:</span>
+            <span class="n">state</span><span class="o">.</span><span class="n">stop</span><span class="p">()</span></div>
+</pre></div>
 
              </article>
              
             </div>
             <footer>
-  
-    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
-      
-        <a href="torchtnt.utils.timer.get_timer_summary.html" class="btn btn-neutral float-right" title="torchtnt.utils.timer.get_timer_summary" accesskey="n" rel="next">Next <img src="../../_static/images/chevron-right-orange.svg" class="next-page"></a>
-      
-      
-        <a href="torchtnt.utils.timer.FullSyncPeriodicTimer.html" class="btn btn-neutral" title="torchtnt.utils.timer.FullSyncPeriodicTimer" accesskey="p" rel="prev"><img src="../../_static/images/chevron-right-orange.svg" class="previous-page"> Previous</a>
-      
-    </div>
   
 
   
@@ -488,10 +483,7 @@ be removed. This range is applied per action.</li>
         <div class="pytorch-content-right" id="pytorch-content-right">
           <div class="pytorch-right-menu" id="pytorch-right-menu">
             <div class="pytorch-side-scroll" id="pytorch-side-scroll-right">
-              <ul>
-<li><a class="reference internal" href="#">torchtnt.utils.timer.BoundedTimer</a></li>
-</ul>
-
+              
             </div>
           </div>
         </div>
@@ -504,21 +496,21 @@ be removed. This range is applied per action.</li>
   
 
      
-       <script type="text/javascript" id="documentation_options" data-url_root="../../" src="../../_static/documentation_options.js"></script>
-         <script data-url_root="../../" id="documentation_options" src="../../_static/documentation_options.js"></script>
-         <script src="../../_static/jquery.js"></script>
-         <script src="../../_static/underscore.js"></script>
-         <script src="../../_static/_sphinx_javascript_frameworks_compat.js"></script>
-         <script src="../../_static/doctools.js"></script>
-         <script src="../../_static/js/torchtnt.js"></script>
+       <script type="text/javascript" id="documentation_options" data-url_root="../../../../" src="../../../../_static/documentation_options.js"></script>
+         <script data-url_root="../../../../" id="documentation_options" src="../../../../_static/documentation_options.js"></script>
+         <script src="../../../../_static/jquery.js"></script>
+         <script src="../../../../_static/underscore.js"></script>
+         <script src="../../../../_static/_sphinx_javascript_frameworks_compat.js"></script>
+         <script src="../../../../_static/doctools.js"></script>
+         <script src="../../../../_static/js/torchtnt.js"></script>
      
 
   
 
-  <script type="text/javascript" src="../../_static/js/vendor/popper.min.js"></script>
-  <script type="text/javascript" src="../../_static/js/vendor/bootstrap.min.js"></script>
+  <script type="text/javascript" src="../../../../_static/js/vendor/popper.min.js"></script>
+  <script type="text/javascript" src="../../../../_static/js/vendor/bootstrap.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/list.js/1.5.0/list.min.js"></script>
-  <script type="text/javascript" src="../../_static/js/theme.js"></script>
+  <script type="text/javascript" src="../../../../_static/js/theme.js"></script>
 
   <script type="text/javascript">
       jQuery(function () {
@@ -623,7 +615,7 @@ be removed. This range is applied per action.</li>
   <div class="cookie-banner-wrapper">
   <div class="container">
     <p class="gdpr-notice">To analyze traffic and optimize your experience, we serve cookies on this site. By clicking or navigating, you agree to allow our usage of cookies. As the current maintainers of this site, Facebook’s Cookies Policy applies. Learn more, including about available controls: <a href="https://www.facebook.com/policies/cookies/">Cookies Policy</a>.</p>
-    <img class="close-button" src="../../_static/images/pytorch-x.svg">
+    <img class="close-button" src="../../../../_static/images/pytorch-x.svg">
   </div>
 </div>
 
@@ -759,7 +751,7 @@ be removed. This range is applied per action.</li>
 
   <!-- End Mobile Menu -->
 
-  <script type="text/javascript" src="../../_static/js/vendor/anchor.min.js"></script>
+  <script type="text/javascript" src="../../../../_static/js/vendor/anchor.min.js"></script>
 
   <script type="text/javascript">
     $(document).ready(function() {

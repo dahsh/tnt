@@ -374,6 +374,8 @@
 <span class="c1"># This source code is licensed under the BSD-style license found in the</span>
 <span class="c1"># LICENSE file in the root directory of this source tree.</span>
 
+<span class="c1"># pyre-strict</span>
+
 <span class="kn">import</span> <span class="nn">datetime</span>
 <span class="kn">import</span> <span class="nn">logging</span>
 <span class="kn">import</span> <span class="nn">os</span>
@@ -474,9 +476,6 @@
 <span class="sd">        Args:</span>
 <span class="sd">            cuda_sync: whether to call torch.cuda.synchronize() before and after timing. Defaults to True if CUDA is available.</span>
 <span class="sd">            verbose: whether to enable verbose logging.</span>
-<span class="sd">            size_bounds: defines the range of samples that should be kept in the timer. The lower bound should be smaller than</span>
-<span class="sd">                the upper bound. When the number of samples reaches the upper bound, the oldest (upper-lower) bound samples will</span>
-<span class="sd">                be removed. This range is applied per action.</span>
 
 <span class="sd">        Note:</span>
 <span class="sd">            Enabling cuda_sync will incur a performance hit, but will ensure accurate timings on GPUs.</span>
@@ -733,7 +732,8 @@
     <span class="n">pg_wrapper</span><span class="o">.</span><span class="n">all_gather_object</span><span class="p">(</span><span class="n">outputs</span><span class="p">,</span> <span class="n">recorded_durations</span><span class="p">)</span>
     <span class="n">ret</span> <span class="o">=</span> <span class="n">defaultdict</span><span class="p">(</span><span class="nb">list</span><span class="p">)</span>
     <span class="k">for</span> <span class="n">output</span> <span class="ow">in</span> <span class="n">outputs</span><span class="p">:</span>
-        <span class="c1"># pyre-fixme [16]: `Optional` has no attribute `__getitem__`.</span>
+        <span class="k">if</span> <span class="ow">not</span> <span class="n">output</span><span class="p">:</span>
+            <span class="k">continue</span>
         <span class="k">for</span> <span class="n">k</span><span class="p">,</span> <span class="n">v</span> <span class="ow">in</span> <span class="n">output</span><span class="o">.</span><span class="n">items</span><span class="p">():</span>
             <span class="k">if</span> <span class="n">k</span> <span class="ow">not</span> <span class="ow">in</span> <span class="n">ret</span><span class="p">:</span>
                 <span class="n">ret</span><span class="p">[</span><span class="n">k</span><span class="p">]</span> <span class="o">=</span> <span class="p">[]</span>
