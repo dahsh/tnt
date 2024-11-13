@@ -14,6 +14,7 @@
    .. autosummary::
    
       ~Progress.__init__
+      ~Progress.get_progress_string
       ~Progress.increment_epoch
       ~Progress.increment_step
       ~Progress.load_state_dict
@@ -30,5 +31,6 @@
       ~Progress.num_epochs_completed
       ~Progress.num_steps_completed
       ~Progress.num_steps_completed_in_epoch
+      ~Progress.num_steps_completed_in_prev_epoch
    
    

@@ -22,15 +22,20 @@ We offer several pre-written callbacks which are ready to be used out of the box
     BaseCSVWriter
     EarlyStopping
     GarbageCollector
+   IterationTimeLogger
     Lambda
     LearningRateMonitor
     MemorySnapshot
     ModuleSummary
+    PeriodicDistributedSync
+    ProgressReporter
     PyTorchProfiler
+    SlowRankDetector
     SystemResourcesMonitor
     TensorBoardParameterMonitor
     TimeLimitInterrupter
-    IterationTimeLogger
+    TimeWaitForBatchLogger
+    ThroughputLogger
     TorchSnapshotSaver
     TQDMProgressBar
     TrainProgressMonitor

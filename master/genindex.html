@@ -74,132 +74,170 @@
 
       <div class="main-menu">
         <ul>
-          <li>
-            <a href="https://pytorch.org/get-started">Get Started</a>
-          </li>
 
-          <li>
-            <a href="https://pytorch.org/ecosystem">Ecosystem</a>
+          <li class="main-menu-item">
+          <div id="resourcesDropdownButton" data-toggle="resources-dropdown" class="resources-dropdown">
+              <a class="with-down-arrow">
+                Learn
+              </a>
+              <div class="resources-dropdown-menu">
+                <a class="nav-dropdown-item" href="https://pytorch.org/get-started">
+                  <span class=dropdown-title>Get Started</span>
+                  <p>Run PyTorch locally or get started quickly with one of the supported cloud platforms</p>
+                </a>
+                <a class="nav-dropdown-item" href="https://pytorch.org/tutorials">
+                  <span class="dropdown-title">Tutorials</span>
+                  <p>Whats new in PyTorch tutorials</p>
+                </a>
+                <a class="nav-dropdown-item" href="https://pytorch.org/tutorials/beginner/basics/intro.html">
+                  <span class="dropdown-title">Learn the Basics</span>
+                  <p>Familiarize yourself with PyTorch concepts and modules</p>
+                </a>
+                <a class="nav-dropdown-item" href="https://pytorch.org/tutorials/recipes/recipes_index.html">
+                  <span class="dropdown-title">PyTorch Recipes</span>
+                  <p>Bite-size, ready-to-deploy PyTorch code examples</p>
+                </a>
+                <a class="nav-dropdown-item" href="https://pytorch.org/tutorials/beginner/introyt.html">
+                  <span class="dropdown-title">Intro to PyTorch - YouTube Series</span>
+                  <p>Master PyTorch basics with our engaging YouTube tutorial series</p>
+                </a>
+              </div>
+            </div>
           </li>
 
           <li>
           <div id="resourcesDropdownButton" data-toggle="resources-dropdown" class="resources-dropdown">
-              <a class="resource-option with-down-arrow">
+              <a class="with-down-arrow">
+                Ecosystem
+              </a>
+              <div class="resources-dropdown-menu">
+                <a class="nav-dropdown-item" href="https://pytorch.org/ecosystem">
+                  <span class="dropdown-title">Tools</span>
+                  <p>Learn about the tools and frameworks in the PyTorch Ecosystem</p>
+                </a>
+                <a class="nav-dropdown-item" href="https://pytorch.org/#community-module">
+                  <span class=dropdown-title>Community</span>
+                  <p>Join the PyTorch developer community to contribute, learn, and get your questions answered</p>
+                </a>
+                <a class="nav-dropdown-item" href="https://discuss.pytorch.org/" target="_blank">
+                  <span class=dropdown-title>Forums</span>
+                  <p>A place to discuss PyTorch code, issues, install, research</p>
+                </a>
+                <a class="nav-dropdown-item" href="https://pytorch.org/resources">
+                  <span class=dropdown-title>Developer Resources</span>
+                  <p>Find resources and get questions answered</p>
+                </a>
+                <a class="nav-dropdown-item" href="https://pytorch.org/ecosystem/contributor-awards-2023">
+                  <span class="dropdown-title">Contributor Awards - 2023</span>
+                  <p>Award winners announced at this year's PyTorch Conference</p>
+                </a>
+              </div>
+            </div>
+          </li>
+
+          <li>
+          <div id="resourcesDropdownButton" data-toggle="resources-dropdown" class="resources-dropdown">
+              <a class="with-down-arrow">
                 Edge
               </a>
               <div class="resources-dropdown-menu">
                 <a class="nav-dropdown-item" href="https://pytorch.org/edge">
                   <span class="dropdown-title">About PyTorch Edge</span>
+                  <p>Build innovative and privacy-aware AI experiences for edge devices</p>
                 </a>
-                <a class="nav-dropdown-item" href="https://pytorch.org/executorch">
+                <a class="nav-dropdown-item" href="https://pytorch.org/executorch-overview">
                   <span class="dropdown-title">ExecuTorch</span>
+                  <p>End-to-end solution for enabling on-device inference capabilities across mobile and edge devices</p>
                 </a>
               </div>
             </div>  
           </li>
 
-          <li>
-            <a href="https://pytorch.org/blog/">Blog</a>
-          </li>
-
-          <li>
-            <a href="https://pytorch.org/tutorials">Tutorials</a>
-          </li>
-
-          <li>
+          <li class="main-menu-item">
             <div id="resourcesDropdownButton" data-toggle="resources-dropdown" class="resources-dropdown">
-              <a class="resource-option with-down-orange-arrow">
+              <a class="with-down-arrow">
                 Docs
               </a>
               <div class="resources-dropdown-menu">
-                <a class="doc-dropdown-option nav-dropdown-item" href="https://pytorch.org/docs/stable/index.html">
+                <a class="nav-dropdown-item" href="https://pytorch.org/docs/stable/index.html">
                   <span class="dropdown-title">PyTorch</span>
-                  <p></p>
+                  <p>Explore the documentation for comprehensive guidance on how to use PyTorch</p>
                 </a>
-                <a class="doc-dropdown-option nav-dropdown-item" href="https://pytorch.org/audio/stable/index.html">
-                  <span class="dropdown-title">torchaudio</span>
-                  <p></p>
-                </a>
-                <a class="doc-dropdown-option nav-dropdown-item" href="https://pytorch.org/text/stable/index.html">
-                  <span class="dropdown-title">torchtext</span>
-                  <p></p>
-                </a>
-                <a class="doc-dropdown-option nav-dropdown-item" href="https://pytorch.org/vision/stable/index.html">
-                  <span class="dropdown-title">torchvision</span>
-                  <p></p>
-                </a>
-                <a class="doc-dropdown-option nav-dropdown-item" href="https://pytorch.org/torcharrow">
-                  <span class="dropdown-title">torcharrow</span>
-                  <p></p>
-                </a>
-                <a class="doc-dropdown-option nav-dropdown-item" href="https://pytorch.org/data">
-                  <span class="dropdown-title">TorchData</span>
-                  <p></p>
-                </a>
-                <a class="doc-dropdown-option nav-dropdown-item" href="https://pytorch.org/torchrec">
-                  <span class="dropdown-title">TorchRec</span>
-                  <p></p>
-                </a>
-                <a class="doc-dropdown-option nav-dropdown-item" href="https://pytorch.org/serve/">
-                  <span class="dropdown-title">TorchServe</span>
-                  <p></p>
-                </a>
-                <a class="doc-dropdown-option nav-dropdown-item" href="https://pytorch.org/torchx/">
-                  <span class="dropdown-title">TorchX</span>
-                  <p></p>
-                </a>
-                <a class="doc-dropdown-option nav-dropdown-item" href="https://pytorch.org/xla">
-                  <span class="dropdown-title">PyTorch on XLA Devices</span>
-                  <p></p>
-                </a>
-            </div>
-          </li>
-
-          <li>
-            <div id="resourcesDropdownButton" data-toggle="resources-dropdown" class="resources-dropdown">
-              <a class="resource-option with-down-arrow">
-                Resources
-              </a>
-              <div class="resources-dropdown-menu">
-                <a class="nav-dropdown-item" href="https://pytorch.org/features">
-                  <span class="dropdown-title">About</span>
-                  <p>Learn about PyTorch’s features and capabilities</p>
-                </a>
-                <a class="nav-dropdown-item" href="https://pytorch.org/foundation">
-                  <span class="dropdown-title">PyTorch Foundation</span>
-                  <p>Learn about the PyTorch foundation</p>
-                </a>
-                <a class="nav-dropdown-item" href="https://pytorch.org/#community-module">
-                  <span class="dropdown-title">Community</span>
-                  <p>Join the PyTorch developer community to contribute, learn, and get your questions answered.</p>
-                </a>
-                <a class="nav-dropdown-item" href="https://pytorch.org/community-stories">
-                  <span class="dropdown-title">Community Stories</span>
-                  <p>Learn how our community solves real, everyday machine learning problems with PyTorch.</p>
-                </a>
-                <a class="nav-dropdown-item" href="https://pytorch.org/resources">
-                  <span class="dropdown-title">Developer Resources</span>
-                  <p>Find resources and get questions answered</p>
-                </a>
-                <a class="nav-dropdown-item" href="https://pytorch.org/events">
-                  <span class="dropdown-title">Events</span>
-                  <p>Find events, webinars, and podcasts</p>
-                </a>
-                <a class="nav-dropdown-item" href="https://discuss.pytorch.org/" target="_blank">
-                  <span class="dropdown-title">Forums</span>
-                  <p>A place to discuss PyTorch code, issues, install, research</p>
-                </a>
-                <a class="nav-dropdown-item" href="https://pytorch.org/hub">
-                  <span class="dropdown-title">Models (Beta)</span>
-                  <p>Discover, publish, and reuse pre-trained models</p>
+                <a class="nav-dropdown-item" href="https://pytorch.org/pytorch-domains">
+                  <span class="dropdown-title">PyTorch Domains</span>
+                  <p>Read the PyTorch Domains documentation to learn more about domain-specific libraries</p>
                 </a>
               </div>
             </div>
           </li>
 
           <li>
-            <a href="https://github.com/pytorch/pytorch">GitHub</a>
+            <div id="resourcesDropdownButton" data-toggle="resources-dropdown" class="resources-dropdown">
+              <a class="with-down-arrow">
+                Blogs & News 
+              </a>
+              <div class="resources-dropdown-menu">
+                <a class="nav-dropdown-item" href="https://pytorch.org/blog/">
+                  <span class="dropdown-title">PyTorch Blog</span>
+                  <p>Catch up on the latest technical news and happenings</p>
+                </a>
+                 <a class="nav-dropdown-item" href="https://pytorch.org/community-blog">
+                  <span class="dropdown-title">Community Blog</span>
+                  <p>Stories from the PyTorch ecosystem</p>
+                </a>
+                <a class="nav-dropdown-item" href="https://pytorch.org/videos">
+                  <span class="dropdown-title">Videos</span>
+                  <p>Learn about the latest PyTorch tutorials, new, and more </p>
+                <a class="nav-dropdown-item" href="https://pytorch.org/community-stories">
+                  <span class="dropdown-title">Community Stories</span>
+                  <p>Learn how our community solves real, everyday machine learning problems with PyTorch</p>
+                </a>
+                <a class="nav-dropdown-item" href="https://pytorch.org/events">
+                  <span class="dropdown-title">Events</span>
+                  <p>Find events, webinars, and podcasts</p>
+                </a>
+            </div>
           </li>
+
+          <li>
+            <div id="resourcesDropdownButton" data-toggle="resources-dropdown" class="resources-dropdown">
+              <a class="with-down-arrow">
+                About
+              </a>
+              <div class="resources-dropdown-menu">
+                <a class="nav-dropdown-item" href="https://pytorch.org/foundation">
+                  <span class="dropdown-title">PyTorch Foundation</span>
+                  <p>Learn more about the PyTorch Foundation</p>
+                </a>
+                <a class="nav-dropdown-item" href="https://pytorch.org/governing-board">
+                  <span class="dropdown-title">Governing Board</span>
+                  <p></p>
+                </a>
+              </div>
+            </div>
+          </li>
+
+          <li class="main-menu-item">
+            <div class="no-dropdown">
+              <a href="https://pytorch.org/join" data-cta="join">
+                Become a Member
+              </a>
+            </div>
+          </li>
+          <li>
+           <div class="main-menu-item">
+             <a href="https://github.com/pytorch/pytorch" class="github-icon">
+             </a>
+           </div>
+          </li>
+          <!--- TODO: This block adds the search icon to the nav bar. We will enable it later. 
+          <li>
+            <div class="main-menu-item">
+             <a href="https://github.com/pytorch/pytorch" class="search-icon">
+             </a>
+            </div>
+          </li>
+          --->
         </ul>
       </div>
 
@@ -468,12 +506,14 @@
 </li>
       <li><a href="framework/state.html#torchtnt.framework.state.State.active_phase">active_phase (torchtnt.framework.state.State property)</a>
 </li>
-      <li><a href="utils/generated/torchtnt.utils.distributed.all_gather_tensors.html#torchtnt.utils.distributed.all_gather_tensors">all_gather_tensors() (in module torchtnt.utils.distributed)</a>
+      <li><a href="framework/state.html#torchtnt.framework.state.State.active_phase_state">active_phase_state() (torchtnt.framework.state.State method)</a>
 </li>
-      <li><a href="utils/generated/torchtnt.utils.data.AllDatasetBatchesIterator.html#torchtnt.utils.data.AllDatasetBatchesIterator">AllDatasetBatchesIterator (class in torchtnt.utils.data)</a>
+      <li><a href="utils/generated/torchtnt.utils.distributed.all_gather_tensors.html#torchtnt.utils.distributed.all_gather_tensors">all_gather_tensors() (in module torchtnt.utils.distributed)</a>
 </li>
   </ul></td>
   <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="utils/generated/torchtnt.utils.data.AllDatasetBatchesIterator.html#torchtnt.utils.data.AllDatasetBatchesIterator">AllDatasetBatchesIterator (class in torchtnt.utils.data)</a>
+</li>
       <li><a href="utils/generated/torchtnt.utils.oom.attach_oom_observer.html#torchtnt.utils.oom.attach_oom_observer">attach_oom_observer() (in module torchtnt.utils.oom)</a>
 </li>
       <li><a href="framework/auto_unit.html#torchtnt.framework.auto_unit.AutoPredictUnit">AutoPredictUnit (class in torchtnt.framework.auto_unit)</a>
@@ -785,12 +825,30 @@
 <h2 id="O">O</h2>
 <table style="width: 100%" class="indextable genindextable"><tr>
   <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="framework/unit.html#torchtnt.framework.unit.EvalUnit.on_checkpoint_save">on_checkpoint_save() (torchtnt.framework.unit.EvalUnit method)</a>
+
+      <ul>
+        <li><a href="framework/unit.html#torchtnt.framework.unit.PredictUnit.on_checkpoint_save">(torchtnt.framework.unit.PredictUnit method)</a>
+</li>
+        <li><a href="framework/unit.html#torchtnt.framework.unit.TrainUnit.on_checkpoint_save">(torchtnt.framework.unit.TrainUnit method)</a>
+</li>
+      </ul></li>
+      <li><a href="framework/callbacks.html#torchtnt.framework.callback.Callback.on_eval_dataloader_iter_creation_end">on_eval_dataloader_iter_creation_end() (torchtnt.framework.callback.Callback method)</a>
+</li>
+      <li><a href="framework/callbacks.html#torchtnt.framework.callback.Callback.on_eval_dataloader_iter_creation_start">on_eval_dataloader_iter_creation_start() (torchtnt.framework.callback.Callback method)</a>
+</li>
       <li><a href="framework/callbacks.html#torchtnt.framework.callback.Callback.on_eval_end">on_eval_end() (torchtnt.framework.callback.Callback method)</a>
 
       <ul>
         <li><a href="framework/generated/torchtnt.framework.callbacks.GarbageCollector.html#torchtnt.framework.callbacks.GarbageCollector.on_eval_end">(torchtnt.framework.callbacks.GarbageCollector method)</a>
 </li>
+        <li><a href="framework/generated/torchtnt.framework.callbacks.IterationTimeLogger.html#torchtnt.framework.callbacks.IterationTimeLogger.on_eval_end">(torchtnt.framework.callbacks.IterationTimeLogger method)</a>
+</li>
+        <li><a href="framework/generated/torchtnt.framework.callbacks.ProgressReporter.html#torchtnt.framework.callbacks.ProgressReporter.on_eval_end">(torchtnt.framework.callbacks.ProgressReporter method)</a>
+</li>
         <li><a href="framework/generated/torchtnt.framework.callbacks.PyTorchProfiler.html#torchtnt.framework.callbacks.PyTorchProfiler.on_eval_end">(torchtnt.framework.callbacks.PyTorchProfiler method)</a>
+</li>
+        <li><a href="framework/generated/torchtnt.framework.callbacks.ThroughputLogger.html#torchtnt.framework.callbacks.ThroughputLogger.on_eval_end">(torchtnt.framework.callbacks.ThroughputLogger method)</a>
 </li>
         <li><a href="framework/unit.html#torchtnt.framework.unit.EvalUnit.on_eval_end">(torchtnt.framework.unit.EvalUnit method)</a>
 </li>
@@ -798,6 +856,10 @@
       <li><a href="framework/callbacks.html#torchtnt.framework.callback.Callback.on_eval_epoch_end">on_eval_epoch_end() (torchtnt.framework.callback.Callback method)</a>
 
       <ul>
+        <li><a href="framework/generated/torchtnt.framework.callbacks.EarlyStopping.html#torchtnt.framework.callbacks.EarlyStopping.on_eval_epoch_end">(torchtnt.framework.callbacks.EarlyStopping method)</a>
+</li>
+        <li><a href="framework/generated/torchtnt.framework.callbacks.ProgressReporter.html#torchtnt.framework.callbacks.ProgressReporter.on_eval_epoch_end">(torchtnt.framework.callbacks.ProgressReporter method)</a>
+</li>
         <li><a href="framework/generated/torchtnt.framework.callbacks.TQDMProgressBar.html#torchtnt.framework.callbacks.TQDMProgressBar.on_eval_epoch_end">(torchtnt.framework.callbacks.TQDMProgressBar method)</a>
 </li>
         <li><a href="framework/unit.html#torchtnt.framework.unit.EvalUnit.on_eval_epoch_end">(torchtnt.framework.unit.EvalUnit method)</a>
@@ -806,6 +868,8 @@
       <li><a href="framework/callbacks.html#torchtnt.framework.callback.Callback.on_eval_epoch_start">on_eval_epoch_start() (torchtnt.framework.callback.Callback method)</a>
 
       <ul>
+        <li><a href="framework/generated/torchtnt.framework.callbacks.ProgressReporter.html#torchtnt.framework.callbacks.ProgressReporter.on_eval_epoch_start">(torchtnt.framework.callbacks.ProgressReporter method)</a>
+</li>
         <li><a href="framework/generated/torchtnt.framework.callbacks.SystemResourcesMonitor.html#torchtnt.framework.callbacks.SystemResourcesMonitor.on_eval_epoch_start">(torchtnt.framework.callbacks.SystemResourcesMonitor method)</a>
 </li>
         <li><a href="framework/generated/torchtnt.framework.callbacks.TQDMProgressBar.html#torchtnt.framework.callbacks.TQDMProgressBar.on_eval_epoch_start">(torchtnt.framework.callbacks.TQDMProgressBar method)</a>
@@ -815,6 +879,8 @@
       </ul></li>
       <li><a href="framework/callbacks.html#torchtnt.framework.callback.Callback.on_eval_get_next_batch_end">on_eval_get_next_batch_end() (torchtnt.framework.callback.Callback method)</a>
 </li>
+      <li><a href="framework/callbacks.html#torchtnt.framework.callback.Callback.on_eval_get_next_batch_start">on_eval_get_next_batch_start() (torchtnt.framework.callback.Callback method)</a>
+</li>
       <li><a href="framework/callbacks.html#torchtnt.framework.callback.Callback.on_eval_start">on_eval_start() (torchtnt.framework.callback.Callback method)</a>
 
       <ul>
@@ -822,7 +888,11 @@
 </li>
         <li><a href="framework/generated/torchtnt.framework.callbacks.ModuleSummary.html#torchtnt.framework.callbacks.ModuleSummary.on_eval_start">(torchtnt.framework.callbacks.ModuleSummary method)</a>
 </li>
+        <li><a href="framework/generated/torchtnt.framework.callbacks.ProgressReporter.html#torchtnt.framework.callbacks.ProgressReporter.on_eval_start">(torchtnt.framework.callbacks.ProgressReporter method)</a>
+</li>
         <li><a href="framework/generated/torchtnt.framework.callbacks.PyTorchProfiler.html#torchtnt.framework.callbacks.PyTorchProfiler.on_eval_start">(torchtnt.framework.callbacks.PyTorchProfiler method)</a>
+</li>
+        <li><a href="framework/generated/torchtnt.framework.callbacks.ThroughputLogger.html#torchtnt.framework.callbacks.ThroughputLogger.on_eval_start">(torchtnt.framework.callbacks.ThroughputLogger method)</a>
 </li>
         <li><a href="framework/unit.html#torchtnt.framework.unit.EvalUnit.on_eval_start">(torchtnt.framework.unit.EvalUnit method)</a>
 </li>
@@ -832,13 +902,23 @@
       <ul>
         <li><a href="framework/callbacks.html#torchtnt.framework.callback.Callback.on_eval_step_end">(torchtnt.framework.callback.Callback method)</a>
 </li>
+        <li><a href="framework/generated/torchtnt.framework.callbacks.EarlyStopping.html#torchtnt.framework.callbacks.EarlyStopping.on_eval_step_end">(torchtnt.framework.callbacks.EarlyStopping method)</a>
+</li>
         <li><a href="framework/generated/torchtnt.framework.callbacks.GarbageCollector.html#torchtnt.framework.callbacks.GarbageCollector.on_eval_step_end">(torchtnt.framework.callbacks.GarbageCollector method)</a>
 </li>
         <li><a href="framework/generated/torchtnt.framework.callbacks.IterationTimeLogger.html#torchtnt.framework.callbacks.IterationTimeLogger.on_eval_step_end">(torchtnt.framework.callbacks.IterationTimeLogger method)</a>
 </li>
         <li><a href="framework/generated/torchtnt.framework.callbacks.MemorySnapshot.html#torchtnt.framework.callbacks.MemorySnapshot.on_eval_step_end">(torchtnt.framework.callbacks.MemorySnapshot method)</a>
 </li>
+        <li><a href="framework/generated/torchtnt.framework.callbacks.PeriodicDistributedSync.html#torchtnt.framework.callbacks.PeriodicDistributedSync.on_eval_step_end">(torchtnt.framework.callbacks.PeriodicDistributedSync method)</a>
+</li>
+        <li><a href="framework/generated/torchtnt.framework.callbacks.ProgressReporter.html#torchtnt.framework.callbacks.ProgressReporter.on_eval_step_end">(torchtnt.framework.callbacks.ProgressReporter method)</a>
+</li>
         <li><a href="framework/generated/torchtnt.framework.callbacks.PyTorchProfiler.html#torchtnt.framework.callbacks.PyTorchProfiler.on_eval_step_end">(torchtnt.framework.callbacks.PyTorchProfiler method)</a>
+</li>
+        <li><a href="framework/generated/torchtnt.framework.callbacks.ThroughputLogger.html#torchtnt.framework.callbacks.ThroughputLogger.on_eval_step_end">(torchtnt.framework.callbacks.ThroughputLogger method)</a>
+</li>
+        <li><a href="framework/generated/torchtnt.framework.callbacks.TimeWaitForBatchLogger.html#torchtnt.framework.callbacks.TimeWaitForBatchLogger.on_eval_step_end">(torchtnt.framework.callbacks.TimeWaitForBatchLogger method)</a>
 </li>
         <li><a href="framework/generated/torchtnt.framework.callbacks.TQDMProgressBar.html#torchtnt.framework.callbacks.TQDMProgressBar.on_eval_step_end">(torchtnt.framework.callbacks.TQDMProgressBar method)</a>
 </li>
@@ -846,6 +926,8 @@
       <li><a href="framework/callbacks.html#torchtnt.framework.callback.Callback.on_eval_step_start">on_eval_step_start() (torchtnt.framework.callback.Callback method)</a>
 
       <ul>
+        <li><a href="framework/generated/torchtnt.framework.callbacks.ProgressReporter.html#torchtnt.framework.callbacks.ProgressReporter.on_eval_step_start">(torchtnt.framework.callbacks.ProgressReporter method)</a>
+</li>
         <li><a href="framework/generated/torchtnt.framework.callbacks.SystemResourcesMonitor.html#torchtnt.framework.callbacks.SystemResourcesMonitor.on_eval_step_start">(torchtnt.framework.callbacks.SystemResourcesMonitor method)</a>
 </li>
       </ul></li>
@@ -857,6 +939,10 @@
         <li><a href="framework/generated/torchtnt.framework.callbacks.TorchSnapshotSaver.html#torchtnt.framework.callbacks.TorchSnapshotSaver.on_exception">(torchtnt.framework.callbacks.TorchSnapshotSaver method)</a>
 </li>
       </ul></li>
+      <li><a href="framework/callbacks.html#torchtnt.framework.callback.Callback.on_predict_dataloader_iter_creation_end">on_predict_dataloader_iter_creation_end() (torchtnt.framework.callback.Callback method)</a>
+</li>
+      <li><a href="framework/callbacks.html#torchtnt.framework.callback.Callback.on_predict_dataloader_iter_creation_start">on_predict_dataloader_iter_creation_start() (torchtnt.framework.callback.Callback method)</a>
+</li>
       <li><a href="framework/callbacks.html#torchtnt.framework.callback.Callback.on_predict_end">on_predict_end() (torchtnt.framework.callback.Callback method)</a>
 
       <ul>
@@ -864,7 +950,13 @@
 </li>
         <li><a href="framework/generated/torchtnt.framework.callbacks.GarbageCollector.html#torchtnt.framework.callbacks.GarbageCollector.on_predict_end">(torchtnt.framework.callbacks.GarbageCollector method)</a>
 </li>
+        <li><a href="framework/generated/torchtnt.framework.callbacks.IterationTimeLogger.html#torchtnt.framework.callbacks.IterationTimeLogger.on_predict_end">(torchtnt.framework.callbacks.IterationTimeLogger method)</a>
+</li>
+        <li><a href="framework/generated/torchtnt.framework.callbacks.ProgressReporter.html#torchtnt.framework.callbacks.ProgressReporter.on_predict_end">(torchtnt.framework.callbacks.ProgressReporter method)</a>
+</li>
         <li><a href="framework/generated/torchtnt.framework.callbacks.PyTorchProfiler.html#torchtnt.framework.callbacks.PyTorchProfiler.on_predict_end">(torchtnt.framework.callbacks.PyTorchProfiler method)</a>
+</li>
+        <li><a href="framework/generated/torchtnt.framework.callbacks.ThroughputLogger.html#torchtnt.framework.callbacks.ThroughputLogger.on_predict_end">(torchtnt.framework.callbacks.ThroughputLogger method)</a>
 </li>
         <li><a href="framework/unit.html#torchtnt.framework.unit.PredictUnit.on_predict_end">(torchtnt.framework.unit.PredictUnit method)</a>
 </li>
@@ -872,6 +964,8 @@
       <li><a href="framework/callbacks.html#torchtnt.framework.callback.Callback.on_predict_epoch_end">on_predict_epoch_end() (torchtnt.framework.callback.Callback method)</a>
 
       <ul>
+        <li><a href="framework/generated/torchtnt.framework.callbacks.ProgressReporter.html#torchtnt.framework.callbacks.ProgressReporter.on_predict_epoch_end">(torchtnt.framework.callbacks.ProgressReporter method)</a>
+</li>
         <li><a href="framework/generated/torchtnt.framework.callbacks.TQDMProgressBar.html#torchtnt.framework.callbacks.TQDMProgressBar.on_predict_epoch_end">(torchtnt.framework.callbacks.TQDMProgressBar method)</a>
 </li>
         <li><a href="framework/unit.html#torchtnt.framework.unit.PredictUnit.on_predict_epoch_end">(torchtnt.framework.unit.PredictUnit method)</a>
@@ -880,6 +974,8 @@
       <li><a href="framework/callbacks.html#torchtnt.framework.callback.Callback.on_predict_epoch_start">on_predict_epoch_start() (torchtnt.framework.callback.Callback method)</a>
 
       <ul>
+        <li><a href="framework/generated/torchtnt.framework.callbacks.ProgressReporter.html#torchtnt.framework.callbacks.ProgressReporter.on_predict_epoch_start">(torchtnt.framework.callbacks.ProgressReporter method)</a>
+</li>
         <li><a href="framework/generated/torchtnt.framework.callbacks.SystemResourcesMonitor.html#torchtnt.framework.callbacks.SystemResourcesMonitor.on_predict_epoch_start">(torchtnt.framework.callbacks.SystemResourcesMonitor method)</a>
 </li>
         <li><a href="framework/generated/torchtnt.framework.callbacks.TQDMProgressBar.html#torchtnt.framework.callbacks.TQDMProgressBar.on_predict_epoch_start">(torchtnt.framework.callbacks.TQDMProgressBar method)</a>
@@ -888,6 +984,8 @@
 </li>
       </ul></li>
       <li><a href="framework/callbacks.html#torchtnt.framework.callback.Callback.on_predict_get_next_batch_end">on_predict_get_next_batch_end() (torchtnt.framework.callback.Callback method)</a>
+</li>
+      <li><a href="framework/callbacks.html#torchtnt.framework.callback.Callback.on_predict_get_next_batch_start">on_predict_get_next_batch_start() (torchtnt.framework.callback.Callback method)</a>
 </li>
       <li><a href="framework/callbacks.html#torchtnt.framework.callback.Callback.on_predict_start">on_predict_start() (torchtnt.framework.callback.Callback method)</a>
 
@@ -898,7 +996,11 @@
 </li>
         <li><a href="framework/generated/torchtnt.framework.callbacks.ModuleSummary.html#torchtnt.framework.callbacks.ModuleSummary.on_predict_start">(torchtnt.framework.callbacks.ModuleSummary method)</a>
 </li>
+        <li><a href="framework/generated/torchtnt.framework.callbacks.ProgressReporter.html#torchtnt.framework.callbacks.ProgressReporter.on_predict_start">(torchtnt.framework.callbacks.ProgressReporter method)</a>
+</li>
         <li><a href="framework/generated/torchtnt.framework.callbacks.PyTorchProfiler.html#torchtnt.framework.callbacks.PyTorchProfiler.on_predict_start">(torchtnt.framework.callbacks.PyTorchProfiler method)</a>
+</li>
+        <li><a href="framework/generated/torchtnt.framework.callbacks.ThroughputLogger.html#torchtnt.framework.callbacks.ThroughputLogger.on_predict_start">(torchtnt.framework.callbacks.ThroughputLogger method)</a>
 </li>
         <li><a href="framework/unit.html#torchtnt.framework.unit.PredictUnit.on_predict_start">(torchtnt.framework.unit.PredictUnit method)</a>
 </li>
@@ -920,7 +1022,15 @@
 </li>
         <li><a href="framework/generated/torchtnt.framework.callbacks.MemorySnapshot.html#torchtnt.framework.callbacks.MemorySnapshot.on_predict_step_end">(torchtnt.framework.callbacks.MemorySnapshot method)</a>
 </li>
+        <li><a href="framework/generated/torchtnt.framework.callbacks.PeriodicDistributedSync.html#torchtnt.framework.callbacks.PeriodicDistributedSync.on_predict_step_end">(torchtnt.framework.callbacks.PeriodicDistributedSync method)</a>
+</li>
+        <li><a href="framework/generated/torchtnt.framework.callbacks.ProgressReporter.html#torchtnt.framework.callbacks.ProgressReporter.on_predict_step_end">(torchtnt.framework.callbacks.ProgressReporter method)</a>
+</li>
         <li><a href="framework/generated/torchtnt.framework.callbacks.PyTorchProfiler.html#torchtnt.framework.callbacks.PyTorchProfiler.on_predict_step_end">(torchtnt.framework.callbacks.PyTorchProfiler method)</a>
+</li>
+        <li><a href="framework/generated/torchtnt.framework.callbacks.ThroughputLogger.html#torchtnt.framework.callbacks.ThroughputLogger.on_predict_step_end">(torchtnt.framework.callbacks.ThroughputLogger method)</a>
+</li>
+        <li><a href="framework/generated/torchtnt.framework.callbacks.TimeWaitForBatchLogger.html#torchtnt.framework.callbacks.TimeWaitForBatchLogger.on_predict_step_end">(torchtnt.framework.callbacks.TimeWaitForBatchLogger method)</a>
 </li>
         <li><a href="framework/generated/torchtnt.framework.callbacks.TQDMProgressBar.html#torchtnt.framework.callbacks.TQDMProgressBar.on_predict_step_end">(torchtnt.framework.callbacks.TQDMProgressBar method)</a>
 </li>
@@ -928,15 +1038,27 @@
       <li><a href="framework/callbacks.html#torchtnt.framework.callback.Callback.on_predict_step_start">on_predict_step_start() (torchtnt.framework.callback.Callback method)</a>
 
       <ul>
+        <li><a href="framework/generated/torchtnt.framework.callbacks.ProgressReporter.html#torchtnt.framework.callbacks.ProgressReporter.on_predict_step_start">(torchtnt.framework.callbacks.ProgressReporter method)</a>
+</li>
         <li><a href="framework/generated/torchtnt.framework.callbacks.SystemResourcesMonitor.html#torchtnt.framework.callbacks.SystemResourcesMonitor.on_predict_step_start">(torchtnt.framework.callbacks.SystemResourcesMonitor method)</a>
 </li>
       </ul></li>
+      <li><a href="framework/callbacks.html#torchtnt.framework.callback.Callback.on_train_dataloader_iter_creation_end">on_train_dataloader_iter_creation_end() (torchtnt.framework.callback.Callback method)</a>
+</li>
+      <li><a href="framework/callbacks.html#torchtnt.framework.callback.Callback.on_train_dataloader_iter_creation_start">on_train_dataloader_iter_creation_start() (torchtnt.framework.callback.Callback method)</a>
+</li>
       <li><a href="framework/callbacks.html#torchtnt.framework.callback.Callback.on_train_end">on_train_end() (torchtnt.framework.callback.Callback method)</a>
 
       <ul>
         <li><a href="framework/generated/torchtnt.framework.callbacks.GarbageCollector.html#torchtnt.framework.callbacks.GarbageCollector.on_train_end">(torchtnt.framework.callbacks.GarbageCollector method)</a>
 </li>
+        <li><a href="framework/generated/torchtnt.framework.callbacks.IterationTimeLogger.html#torchtnt.framework.callbacks.IterationTimeLogger.on_train_end">(torchtnt.framework.callbacks.IterationTimeLogger method)</a>
+</li>
+        <li><a href="framework/generated/torchtnt.framework.callbacks.ProgressReporter.html#torchtnt.framework.callbacks.ProgressReporter.on_train_end">(torchtnt.framework.callbacks.ProgressReporter method)</a>
+</li>
         <li><a href="framework/generated/torchtnt.framework.callbacks.PyTorchProfiler.html#torchtnt.framework.callbacks.PyTorchProfiler.on_train_end">(torchtnt.framework.callbacks.PyTorchProfiler method)</a>
+</li>
+        <li><a href="framework/generated/torchtnt.framework.callbacks.ThroughputLogger.html#torchtnt.framework.callbacks.ThroughputLogger.on_train_end">(torchtnt.framework.callbacks.ThroughputLogger method)</a>
 </li>
         <li><a href="framework/unit.html#torchtnt.framework.unit.TrainUnit.on_train_end">(torchtnt.framework.unit.TrainUnit method)</a>
 </li>
@@ -948,7 +1070,13 @@
 </li>
         <li><a href="framework/generated/torchtnt.framework.callbacks.EarlyStopping.html#torchtnt.framework.callbacks.EarlyStopping.on_train_epoch_end">(torchtnt.framework.callbacks.EarlyStopping method)</a>
 </li>
+        <li><a href="framework/generated/torchtnt.framework.callbacks.ProgressReporter.html#torchtnt.framework.callbacks.ProgressReporter.on_train_epoch_end">(torchtnt.framework.callbacks.ProgressReporter method)</a>
+</li>
+        <li><a href="framework/generated/torchtnt.framework.callbacks.SlowRankDetector.html#torchtnt.framework.callbacks.SlowRankDetector.on_train_epoch_end">(torchtnt.framework.callbacks.SlowRankDetector method)</a>
+</li>
         <li><a href="framework/generated/torchtnt.framework.callbacks.TensorBoardParameterMonitor.html#torchtnt.framework.callbacks.TensorBoardParameterMonitor.on_train_epoch_end">(torchtnt.framework.callbacks.TensorBoardParameterMonitor method)</a>
+</li>
+        <li><a href="framework/generated/torchtnt.framework.callbacks.ThroughputLogger.html#torchtnt.framework.callbacks.ThroughputLogger.on_train_epoch_end">(torchtnt.framework.callbacks.ThroughputLogger method)</a>
 </li>
         <li><a href="framework/generated/torchtnt.framework.callbacks.TimeLimitInterrupter.html#torchtnt.framework.callbacks.TimeLimitInterrupter.on_train_epoch_end">(torchtnt.framework.callbacks.TimeLimitInterrupter method)</a>
 </li>
@@ -964,7 +1092,11 @@
       <ul>
         <li><a href="framework/generated/torchtnt.framework.callbacks.LearningRateMonitor.html#torchtnt.framework.callbacks.LearningRateMonitor.on_train_epoch_start">(torchtnt.framework.callbacks.LearningRateMonitor method)</a>
 </li>
+        <li><a href="framework/generated/torchtnt.framework.callbacks.ProgressReporter.html#torchtnt.framework.callbacks.ProgressReporter.on_train_epoch_start">(torchtnt.framework.callbacks.ProgressReporter method)</a>
+</li>
         <li><a href="framework/generated/torchtnt.framework.callbacks.SystemResourcesMonitor.html#torchtnt.framework.callbacks.SystemResourcesMonitor.on_train_epoch_start">(torchtnt.framework.callbacks.SystemResourcesMonitor method)</a>
+</li>
+        <li><a href="framework/generated/torchtnt.framework.callbacks.ThroughputLogger.html#torchtnt.framework.callbacks.ThroughputLogger.on_train_epoch_start">(torchtnt.framework.callbacks.ThroughputLogger method)</a>
 </li>
         <li><a href="framework/generated/torchtnt.framework.callbacks.TQDMProgressBar.html#torchtnt.framework.callbacks.TQDMProgressBar.on_train_epoch_start">(torchtnt.framework.callbacks.TQDMProgressBar method)</a>
 </li>
@@ -973,12 +1105,16 @@
       </ul></li>
       <li><a href="framework/callbacks.html#torchtnt.framework.callback.Callback.on_train_get_next_batch_end">on_train_get_next_batch_end() (torchtnt.framework.callback.Callback method)</a>
 </li>
+      <li><a href="framework/callbacks.html#torchtnt.framework.callback.Callback.on_train_get_next_batch_start">on_train_get_next_batch_start() (torchtnt.framework.callback.Callback method)</a>
+</li>
       <li><a href="framework/callbacks.html#torchtnt.framework.callback.Callback.on_train_start">on_train_start() (torchtnt.framework.callback.Callback method)</a>
 
       <ul>
         <li><a href="framework/generated/torchtnt.framework.callbacks.GarbageCollector.html#torchtnt.framework.callbacks.GarbageCollector.on_train_start">(torchtnt.framework.callbacks.GarbageCollector method)</a>
 </li>
         <li><a href="framework/generated/torchtnt.framework.callbacks.ModuleSummary.html#torchtnt.framework.callbacks.ModuleSummary.on_train_start">(torchtnt.framework.callbacks.ModuleSummary method)</a>
+</li>
+        <li><a href="framework/generated/torchtnt.framework.callbacks.ProgressReporter.html#torchtnt.framework.callbacks.ProgressReporter.on_train_start">(torchtnt.framework.callbacks.ProgressReporter method)</a>
 </li>
         <li><a href="framework/generated/torchtnt.framework.callbacks.PyTorchProfiler.html#torchtnt.framework.callbacks.PyTorchProfiler.on_train_start">(torchtnt.framework.callbacks.PyTorchProfiler method)</a>
 </li>
@@ -1004,9 +1140,17 @@
 </li>
         <li><a href="framework/generated/torchtnt.framework.callbacks.MemorySnapshot.html#torchtnt.framework.callbacks.MemorySnapshot.on_train_step_end">(torchtnt.framework.callbacks.MemorySnapshot method)</a>
 </li>
+        <li><a href="framework/generated/torchtnt.framework.callbacks.ProgressReporter.html#torchtnt.framework.callbacks.ProgressReporter.on_train_step_end">(torchtnt.framework.callbacks.ProgressReporter method)</a>
+</li>
         <li><a href="framework/generated/torchtnt.framework.callbacks.PyTorchProfiler.html#torchtnt.framework.callbacks.PyTorchProfiler.on_train_step_end">(torchtnt.framework.callbacks.PyTorchProfiler method)</a>
 </li>
+        <li><a href="framework/generated/torchtnt.framework.callbacks.SlowRankDetector.html#torchtnt.framework.callbacks.SlowRankDetector.on_train_step_end">(torchtnt.framework.callbacks.SlowRankDetector method)</a>
+</li>
+        <li><a href="framework/generated/torchtnt.framework.callbacks.ThroughputLogger.html#torchtnt.framework.callbacks.ThroughputLogger.on_train_step_end">(torchtnt.framework.callbacks.ThroughputLogger method)</a>
+</li>
         <li><a href="framework/generated/torchtnt.framework.callbacks.TimeLimitInterrupter.html#torchtnt.framework.callbacks.TimeLimitInterrupter.on_train_step_end">(torchtnt.framework.callbacks.TimeLimitInterrupter method)</a>
+</li>
+        <li><a href="framework/generated/torchtnt.framework.callbacks.TimeWaitForBatchLogger.html#torchtnt.framework.callbacks.TimeWaitForBatchLogger.on_train_step_end">(torchtnt.framework.callbacks.TimeWaitForBatchLogger method)</a>
 </li>
         <li><a href="framework/generated/torchtnt.framework.callbacks.TQDMProgressBar.html#torchtnt.framework.callbacks.TQDMProgressBar.on_train_step_end">(torchtnt.framework.callbacks.TQDMProgressBar method)</a>
 </li>
@@ -1015,6 +1159,8 @@
 
       <ul>
         <li><a href="framework/generated/torchtnt.framework.callbacks.LearningRateMonitor.html#torchtnt.framework.callbacks.LearningRateMonitor.on_train_step_start">(torchtnt.framework.callbacks.LearningRateMonitor method)</a>
+</li>
+        <li><a href="framework/generated/torchtnt.framework.callbacks.ProgressReporter.html#torchtnt.framework.callbacks.ProgressReporter.on_train_step_start">(torchtnt.framework.callbacks.ProgressReporter method)</a>
 </li>
         <li><a href="framework/generated/torchtnt.framework.callbacks.SystemResourcesMonitor.html#torchtnt.framework.callbacks.SystemResourcesMonitor.on_train_step_start">(torchtnt.framework.callbacks.SystemResourcesMonitor method)</a>
 </li>
@@ -1025,6 +1171,8 @@
 <h2 id="P">P</h2>
 <table style="width: 100%" class="indextable genindextable"><tr>
   <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="framework/generated/torchtnt.framework.callbacks.PeriodicDistributedSync.html#torchtnt.framework.callbacks.PeriodicDistributedSync">PeriodicDistributedSync (class in torchtnt.framework.callbacks)</a>
+</li>
       <li><a href="utils/generated/torchtnt.utils.distributed.PGWrapper.html#torchtnt.utils.distributed.PGWrapper">PGWrapper (class in torchtnt.utils.distributed)</a>
 </li>
       <li><a href="framework/state.html#torchtnt.framework.state.PhaseState">PhaseState (class in torchtnt.framework.state)</a>
@@ -1052,6 +1200,8 @@
       <li><a href="utils/generated/torchtnt.utils.prepare_module.prepare_module.html#torchtnt.utils.prepare_module.prepare_module">prepare_module() (in module torchtnt.utils.prepare_module)</a>
 </li>
       <li><a href="utils/generated/torchtnt.utils.progress.Progress.html#torchtnt.utils.progress.Progress">Progress (class in torchtnt.utils.progress)</a>
+</li>
+      <li><a href="framework/generated/torchtnt.framework.callbacks.ProgressReporter.html#torchtnt.framework.callbacks.ProgressReporter">ProgressReporter (class in torchtnt.framework.callbacks)</a>
 </li>
       <li><a href="utils/generated/torchtnt.utils.module_summary.prune_module_summary.html#torchtnt.utils.module_summary.prune_module_summary">prune_module_summary() (in module torchtnt.utils.module_summary)</a>
 </li>
@@ -1109,6 +1259,8 @@
 </li>
       <li><a href="utils/generated/torchtnt.utils.test_utils.skip_if_asan.html#torchtnt.utils.test_utils.skip_if_asan">skip_if_asan() (in module torchtnt.utils.test_utils)</a>
 </li>
+      <li><a href="framework/generated/torchtnt.framework.callbacks.SlowRankDetector.html#torchtnt.framework.callbacks.SlowRankDetector">SlowRankDetector (class in torchtnt.framework.callbacks)</a>
+</li>
       <li><a href="utils/generated/torchtnt.utils.distributed.spawn_multi_process.html#torchtnt.utils.distributed.spawn_multi_process">spawn_multi_process() (in module torchtnt.utils.distributed)</a>
 </li>
   </ul></td>
@@ -1118,6 +1270,8 @@
       <li><a href="utils/generated/torchtnt.utils.stateful.Stateful.html#torchtnt.utils.stateful.Stateful">Stateful (class in torchtnt.utils.stateful)</a>
 </li>
       <li><a href="utils/generated/torchtnt.utils.loggers.StdoutLogger.html#torchtnt.utils.loggers.StdoutLogger">StdoutLogger (class in torchtnt.utils.loggers)</a>
+</li>
+      <li><a href="framework/auto_unit.html#torchtnt.framework.auto_unit.AutoUnit.step_lr_scheduler">step_lr_scheduler() (torchtnt.framework.auto_unit.AutoUnit method)</a>
 </li>
       <li><a href="framework/state.html#torchtnt.framework.state.PhaseState.step_output">step_output (torchtnt.framework.state.PhaseState property)</a>
 </li>
@@ -1137,6 +1291,8 @@
 </li>
       <li><a href="framework/generated/torchtnt.framework.callbacks.TensorBoardParameterMonitor.html#torchtnt.framework.callbacks.TensorBoardParameterMonitor">TensorBoardParameterMonitor (class in torchtnt.framework.callbacks)</a>
 </li>
+      <li><a href="framework/generated/torchtnt.framework.callbacks.ThroughputLogger.html#torchtnt.framework.callbacks.ThroughputLogger">ThroughputLogger (class in torchtnt.framework.callbacks)</a>
+</li>
       <li><a href="framework/generated/torchtnt.framework.callbacks.TimeLimitInterrupter.html#torchtnt.framework.callbacks.TimeLimitInterrupter">TimeLimitInterrupter (class in torchtnt.framework.callbacks)</a>
 </li>
       <li><a href="utils/generated/torchtnt.utils.timer.Timer.html#torchtnt.utils.timer.Timer">Timer (class in torchtnt.utils.timer)</a>
@@ -1145,8 +1301,12 @@
 </li>
       <li><a href="utils/generated/torchtnt.utils.timer.TimerProtocol.html#torchtnt.utils.timer.TimerProtocol">TimerProtocol (class in torchtnt.utils.timer)</a>
 </li>
+      <li><a href="framework/generated/torchtnt.framework.callbacks.TimeWaitForBatchLogger.html#torchtnt.framework.callbacks.TimeWaitForBatchLogger">TimeWaitForBatchLogger (class in torchtnt.framework.callbacks)</a>
+</li>
       <li><a href="framework/generated/torchtnt.framework.callbacks.TorchSnapshotSaver.html#torchtnt.framework.callbacks.TorchSnapshotSaver">TorchSnapshotSaver (class in torchtnt.framework.callbacks)</a>
 </li>
+  </ul></td>
+  <td style="width: 33%; vertical-align: top;"><ul>
       <li>
     torchtnt.framework.callback
 
@@ -1154,8 +1314,6 @@
         <li><a href="framework/callbacks.html#module-torchtnt.framework.callback">module</a>
 </li>
       </ul></li>
-  </ul></td>
-  <td style="width: 33%; vertical-align: top;"><ul>
       <li><a href="framework/generated/torchtnt.framework.callbacks.TQDMProgressBar.html#torchtnt.framework.callbacks.TQDMProgressBar">TQDMProgressBar (class in torchtnt.framework.callbacks)</a>
 </li>
       <li><a href="framework/train.html#torchtnt.framework.train.train">train() (in module torchtnt.framework.train)</a>
@@ -1372,114 +1530,111 @@
     <div class="mobile-main-menu-links-container">
       <div class="main-menu">
         <ul>
-          <li>
-            <a href="https://pytorch.org/get-started">Get Started</a>
-          </li>
+           <li class="resources-mobile-menu-title">
+             <a>Learn</a>
+           </li>
+           <ul class="resources-mobile-menu-items">
+             <li>
+               <a href="https://pytorch.org/get-started">Get Started</a>
+             </li>
+             <li>
+               <a href="https://pytorch.org/tutorials">Tutorials</a>
+             </li>
+             <li>
+               <a href="https://pytorch.org/tutorials/beginner/basics/intro.html">Learn the Basics</a>
+             </li>
+             <li>
+               <a href="https://pytorch.org/tutorials/recipes/recipes_index.html">PyTorch Recipes</a>
+             </li>
+             <li>
+               <a href="https://pytorch.org/tutorials/beginner/introyt.html">Introduction to PyTorch - YouTube Series</a>
+             </li>
+           </ul>
+           <li class="resources-mobile-menu-title">
+             <a>Ecosystem</a>
+           </li>
+           <ul class="resources-mobile-menu-items">
+             <li>
+               <a href="https://pytorch.org/ecosystem">Tools</a>
+             </li>
+             <li>
+               <a href="https://pytorch.org/#community-module">Community</a>
+             </li>
+             <li>
+               <a href="https://discuss.pytorch.org/">Forums</a>
+             </li>
+             <li>
+               <a href="https://pytorch.org/resources">Developer Resources</a>
+             </li>
+             <li>
+               <a href="https://pytorch.org/ecosystem/contributor-awards-2023">Contributor Awards - 2023</a>
+             </li>
+           </ul>
 
-          <li>
-            <a href="https://pytorch.org/ecosystem">Ecosystem</a>
-          </li>
-            
-          <li>
-            <a href="">Mobile</a>
-          </li>
+           <li class="resources-mobile-menu-title">
+             <a>Edge</a>
+           </li>
 
-          <li>
-            <a href="https://pytorch.org/blog/">Blog</a>
-          </li>
+           <ul class="resources-mobile-menu-items">
+             <li>
+               <a href="https://pytorch.org/edge">About PyTorch Edge</a>
+             </li>
+             
+             <li>
+               <a href="https://pytorch.org/executorch-overview">ExecuTorch</a>
+             </li>
+           </ul>
 
-          <li>
-            <a href="https://pytorch.org/tutorials">Tutorials</a>
-          </li>
+           <li class="resources-mobile-menu-title">
+             <a>Docs</a>
+           </li>
 
-          <li class="resources-mobile-menu-title">
-            Docs
-          </li>
-
-          <ul class="resources-mobile-menu-items">
+           <ul class="resources-mobile-menu-items">
             <li>
               <a href="https://pytorch.org/docs/stable/index.html">PyTorch</a>
             </li>
 
             <li>
-              <a href="https://pytorch.org/audio/stable/index.html">torchaudio</a>
-            </li>
-
-            <li>
-              <a href="https://pytorch.org/text/stable/index.html">torchtext</a>
-            </li>
-
-            <li>
-              <a href="https://pytorch.org/vision/stable/index.html">torchvision</a>
-            </li>
-
-            <li>
-              <a href="https://pytorch.org/torcharrow">torcharrow</a>
-            </li>
-
-            <li>
-              <a href="https://pytorch.org/data">TorchData</a>
-            </li>
-
-            <li>
-              <a href="https://pytorch.org/torchrec">TorchRec</a>
-            </li>
-
-            <li>
-              <a href="https://pytorch.org/serve/">TorchServe</a>
-            </li>
-
-            <li>
-              <a href="https://pytorch.org/torchx/">TorchX</a>
-            </li>
-
-            <li>
-              <a href="https://pytorch.org/xla">PyTorch on XLA Devices</a>
+              <a href="https://pytorch.org/pytorch-domains">PyTorch Domains</a>
             </li>
           </ul>
 
           <li class="resources-mobile-menu-title">
-            Resources
+            <a>Blog & News</a>
           </li>
             
            <ul class="resources-mobile-menu-items">
-
             <li>
-              <a href="https://pytorch.org/features">About</a>
+              <a href="https://pytorch.org/blog/">PyTorch Blog</a>
+            </li>
+            <li>
+              <a href="https://pytorch.org/community-blog">Community Blog</a>
             </li>
 
             <li>
-              <a href="https://pytorch.org/foundation">PyTorch Foundation</a>
-            </li>
-
-            <li>
-              <a href="https://pytorch.org/#community-module">Community</a>
+              <a href="https://pytorch.org/videos">Videos</a>
             </li>
 
             <li>
               <a href="https://pytorch.org/community-stories">Community Stories</a>
             </li>
-
-            <li>
-              <a href="https://pytorch.org/resources">Developer Resources</a>
-            </li>
-
             <li>
               <a href="https://pytorch.org/events">Events</a>
             </li>
+          </ul>
+          
+          <li class="resources-mobile-menu-title">
+            <a>About</a>
+          </li>
 
+          <ul class="resources-mobile-menu-items">
             <li>
-              <a href="https://discuss.pytorch.org/">Forums</a>
+              <a href="https://pytorch.org/foundation">PyTorch Foundation</a>
             </li>
-
             <li>
-              <a href="https://pytorch.org/hub">Models (Beta)</a>
+              <a href="https://pytorch.org/governing-board">Governing Board</a>
             </li>
           </ul>
-
-          <li>
-            <a href="https://github.com/pytorch/pytorch">Github</a>
-          </li>
         </ul>
       </div>
     </div>

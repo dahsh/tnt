@@ -35,6 +35,7 @@
       ~AveragedModel.ipu
       ~AveragedModel.load_state_dict
       ~AveragedModel.modules
+      ~AveragedModel.mtia
       ~AveragedModel.named_buffers
       ~AveragedModel.named_children
       ~AveragedModel.named_modules
@@ -47,11 +48,14 @@
       ~AveragedModel.register_full_backward_hook
       ~AveragedModel.register_full_backward_pre_hook
       ~AveragedModel.register_load_state_dict_post_hook
+      ~AveragedModel.register_load_state_dict_pre_hook
       ~AveragedModel.register_module
       ~AveragedModel.register_parameter
+      ~AveragedModel.register_state_dict_post_hook
       ~AveragedModel.register_state_dict_pre_hook
       ~AveragedModel.requires_grad_
       ~AveragedModel.set_extra_state
+      ~AveragedModel.set_submodule
       ~AveragedModel.share_memory
       ~AveragedModel.state_dict
       ~AveragedModel.to
@@ -73,6 +77,7 @@
       ~AveragedModel.T_destination
       ~AveragedModel.call_super_init
       ~AveragedModel.dump_patches
+      ~AveragedModel.n_averaged
       ~AveragedModel.training
    
    
